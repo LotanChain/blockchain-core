@@ -1,0 +1,34 @@
+logging="INFO"
+data-path="data"
+host-whitelist=["*"]
+
+# rpc
+rpc-http-enabled=true
+rpc-http-host="0.0.0.0"
+rpc-http-port=8545
+rpc-http-cors-origins=["*"]
+genesis-file="../genesis.json"
+# ws
+rpc-ws-enabled=true
+rpc-ws-host="0.0.0.0"
+rpc-ws-port=8546
+rpc-http-api=["EEA,WEB3,ETH,NET,TRACE,DEBUG,ADMIN,PERM,IBFT"]
+
+# graphql
+graphql-http-enabled=true
+graphql-http-host="0.0.0.0"
+graphql-http-port=8547
+graphql-http-cors-origins=["*"]
+
+# metrics
+metrics-enabled=true
+metrics-host="0.0.0.0"
+metrics-port=9545
+
+# bootnodes
+bootnodes=["enode://2c4e27e8753a9a98e9f7b785676191b8e9cf65f6a142e17d036deb1f2f701d47e9d4cf6a32a21e990b3a1f7f21ac58d3c38bf59dfcd47252a6192fd5b5cbf6cb@144.126.157.250:30303"]
+
+# Discovery at boot is set to a list of static files, but will also discover new nodes should they be added
+# static nodes
+static-nodes-file="../static-nodes.json"
+discovery-enabled=true
