@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "chainId" : 1352,
+    "muirglacierblock" : 0,
+    "ibft2" : {
+      "blockperiodseconds" : 6,
+      "epochlength" : 30000,
+      "requesttimeoutseconds" : 12
+    }
+  },
+  "nonce" : "0x0",
+  "timestamp" : "0xF7136",
+  "gasLimit" : "0x989680",
+  "difficulty" : "0x1",
+  "miningbeneficiary" : "0x736a93340ba14Ea75C971034c5232050aa63bC1C",
+  "alloc" : {
+          "0x736a93340ba14Ea75C971034c5232050aa63bC1C" : {
+      "balance" : "100000000000000000000000000000"
+    }
+  },
+  "extraData" : "0xf87ea00000000000000000000000000000000000000000000000000000000000000000f8549400b607553e3e00493f987579ad7506e7639370e394fa82ae105554d91c6560b8113744fd1bff3775549475a42bc2ab140587c6f4acd0834785e0b670189694d659dcfd9e742f382369c544902b9cf646358b9a808400000000c0"
+}
